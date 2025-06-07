@@ -9,7 +9,7 @@ from io import BytesIO
 from tensorflow.keras.models import load_model
 import aiohttp
 TOKEN = "Put discord token here bro"
-ownerid = 56576421084423785
+ownerid = 0
 timerlist=[0.0,2.2,1,2.1,1.5,2,0.8,1.1,0.4,0.3,0.2,0.5,2,1,1.1,2,0.1,2,2.0]
 
 bot_prefix = "%"
