@@ -32,7 +32,7 @@ def solve(message):
     hint_replaced = hint_string.replace('_', '.')
     return re.findall('^'+hint_replaced+'$', pokemon_list, re.MULTILINE)
   
-async def catch(message: discord.Message):
+async def hint_solver(message: discord.Message):
     c = await bot.loop.run_in_executor(
         None,
         solve,
